@@ -1,46 +1,49 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="矢上川で恋してみたい"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
 
-メロスは激怒した。[l][r]
+俺は日暮里太郎
+今年の春からあの有名な大学「KO大学」に通う新一年生だ[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「中高の6年間は部活と勉強に打ち込んで彼女を作る暇がなかったからなぁ…
+大学生のうちに何とか彼女を作って青春を謳歌するぞ～」[l][r]
 
-(中略)[l][r]
+あなたが通う学部は？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_keizai] →経済学部 [endlink][r]
+[link target=*tag_rikou] →理工学部[endlink][r]
 [s]
 
-*tag_sleep
+*tag_keizai
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+クラスに女子が多く、普通に彼女ができた。[l][r]
+その後大学卒業まで付き合い、就職と同時に結婚した。[r]
 
-【 BAD END 】[l][cm]
+【 Good End 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_rikou
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+理工学部に女子はほぼおらず、実験に課題にでまともに自由時間がなく
+バイトやその他出会いの場に顔を出すこともできず、
+彼女つくることなんて夢のまた夢であった。[l][r]
 
-【 GOOD END 】[l][cm]
+その後学生時代にまともに恋愛できないまま、社会に放り出され、
+無事３０代の魔法使いが誕生した。[r]
+
+【 Bad End 】[l][cm]
 
 [jump target=*start]
